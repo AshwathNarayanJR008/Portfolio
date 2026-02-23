@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashwath Narayan JR | AI & Digital Health Engineer</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/modern.css">
+</head>
+
+<body>
+
+    <!-- Neural Network Particle Canvas -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Mobile Hamburger Menu -->
+    <button class="hamburger" id="hamburger-btn" aria-label="Toggle Navigation">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Sidebar Navigation -->
+    <nav id="sidebar">
+        <div class="sidebar-header">
+            <img src="images/avator.jpg" alt="Ashwath Narayan JR Profile" class="profile-img">
+            <h1 class="sidebar-title">Ashwath Narayan</h1>
+            <p class="sidebar-subtitle">AI & Digital Health Engineer</p>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#hero" class="active"><i class="fas fa-user-astronaut"></i> &nbsp; About Me</a></li>
+            <li><a href="#experience"><i class="fas fa-briefcase"></i> &nbsp; Experience</a></li>
+            <li><a href="#projects"><i class="fas fa-network-wired"></i> &nbsp; Projects</a></li>
+            <li><a href="#publications"><i class="fas fa-book-open"></i> &nbsp; Publications</a></li>
+            <li><a href="#details"><i class="fas fa-graduation-cap"></i> &nbsp; Details / Skills</a></li>
+            <li><a href="#references"><i class="fas fa-users"></i> &nbsp; References</a></li>
+        </ul>
+
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/ashwath-narayan-jr-62636a228/" target="_blank" aria-label="LinkedIn"><i
+                    class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/AshwathNarayanJR008" target="_blank" aria-label="GitHub"><i
+                    class="fab fa-github"></i></a>
+            <a href="https://scholar.google.com/citations?user=nbhhlugAAAAJ&hl=en" target="_blank"
+                aria-label="Google Scholar"><i class="fab fa-google"></i></a>
+            <a href="mailto:ashwathnarayan421@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main">
+
+        <!-- About Me Section -->
+        <section id="hero" class="visible">
+            <h1 class="typing-text">Hi, I'm <span>Ashwath Narayan JR</span></h1>
+            <h2>Building Intelligent Systems to Solve Complex Real-World Challenges</h2>
+            <p>
+                I am a highly motivated and passionate MSc graduate in Diagnostics,
+                Data, and Digital Health, having completed my degree with distinction at the University of Warwick.
+                With a B.Tech in Artificial Intelligence and Machine Learning from M S Ramaiah University of Applied
+                Sciences, I actively engage in research and innovation
+                at the nexus of AI and healthcare.
+                <br><br>
+                Through internships at L&T Technology Services, Ramaiah University, and YoShops, I have delivered
+                data-driven insights, engineered predictive models,
+                and built ML solutions for large-scale manufacturing and bionic control systems. My work is reflected in
+                my extensive research contributions,
+                having authored over 15+ papers in Scopus-indexed conferences and journals. I’m deeply committed to
+                accelerating AI adoption in real-world environments
+                to drive innovation and create a meaningful impact on society.
+            </p>
+            <div>
+                <a href="#projects" class="hero-btn">Explore My Work</a>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience">
+            <h2 class="section-title">Work Experience</h2>
+            <p style="color: var(--text-secondary); margin-bottom: 2rem;">Professional chapters shaping my journey in
+                AI, ML, and Data Science.</p>
+
+            <div class="timeline">
+
+                <div class="timeline-item glass-card">
+                    <span class="timeline-date">Jan 2024 - Apr 2024</span>
+                    <div class="timeline-header">
+                        <img src="https://www.ltts.com/sites/default/files/styles/author_image/public/blogs/2018/07/LTTS-logo.jpg?itok=nXrz5oBt"
+                            alt="L&T Technology Services" class="timeline-logo">
+                        <div class="timeline-titles">
+                            <h4>Data Science Intern</h4>
+                            <p>L&T Technology and Services</p>
+                        </div>
+                    </div>
+                    <div class="timeline-content">
+                        <ul>
+                            <li>Integrated a chatbot ecosystem utilizing Flask and ChatGPT frameworks.</li>
+                            <li>Engineered ML models for accurate, scalable comparative data analysis.</li>
+                            <li>Designed predictive pipelines to identify missing parts in the Engineering Bill of
+                                Materials (EBOM) for seat assemblies.</li>
+                            <li>Analyzed complex 3D CAD models for clash detection and positional accuracy optimization
+                                for DPM.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item glass-card">
+                    <span class="timeline-date">Jun 2023 - Dec 2023</span>
+                    <div class="timeline-header">
+                        <img src="https://www.crackerandrush.com/wp-content/uploads/2023/06/Ramaiah-logo-scaled.webp"
+                            alt="Ramaiah University" class="timeline-logo">
+                        <div class="timeline-titles">
+                            <h4>AI Engineer Intern</h4>
+                            <p>Ramaiah University</p>
+                        </div>
+                    </div>
+                    <div class="timeline-content">
+                        <ul>
+                            <li>Spearheaded comprehensive literature reviews on AI applications within biomechanics and
+                                EMG-based prosthetics.</li>
+                            <li>Architected and implemented predictive algorithms alongside research teams to
+                                supercharge bionic hand functionalities.</li>
+                            <li>Processed, analyzed, and interpreted complex electromyography (EMG) signals to pinpoint
+                                algorithmic optimizations.</li>
+                            <li>Built and validated custom data processing workflows, bolstering the accuracy of
+                                biomechanical interpretations in bionic hand controls.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item glass-card">
+                    <span class="timeline-date">Jun 2023 - Aug 2023</span>
+                    <div class="timeline-header">
+                        <img src="https://media.licdn.com/dms/image/v2/C510BAQFp9WAQW0Mvcg/company-logo_200_200/company-logo_200_200/0/1631422330387/yoshops_logo?e=2147483647&v=beta&t=aTL_5218qIVKjilppS-HZ1xxzP7JFR8zmQMnTNxh89A"
+                            alt="YoShops" class="timeline-logo">
+                        <div class="timeline-titles">
+                            <h4>Data Science Intern</h4>
+                            <p>YoShops</p>
+                        </div>
+                    </div>
+                    <div class="timeline-content">
+                        <ul>
+                            <li>Deployed advanced data analysis methodologies for robust business decision-making.</li>
+                            <li>Extracted and visualized actionable insight from expansive and unstructured enterprise
+                                datasets.</li>
+                            <li>Designed high-impact reports and BI dashboards, clearly communicating complex metrics to
+                                stakeholders.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2 class="section-title">Featured Projects</h2>
+            <p style="color: var(--text-secondary); margin-bottom: 2rem;">Showcasing my capability to fuse AI models
+                with IoT, cloud computing, and advanced analytics to solve complex challenges.</p>
+
+            <div class="projects-grid">
+
+                <div class="project-card glass-card">
+                    <div class="project-img-wrapper">
+                        <img src="images/pic11.png" alt="Blood Vessel Segmentation" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h6>Current MSc Dissertation</h6>
+                        <h4>Automated Blood Vessel Segmentation & 3D Reconstruction</h4>
+                        <p>A fast, AI-based deep neural network designed to separate blood vessels from ultrasound
+                            backgrounds without immense manual effort. Enhances diagnostic workflows for clinical
+                            radiologists and accelerates early diagnosis accuracy.</p>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card">
+                    <div class="project-img-wrapper">
+                        <img src="images/pic09.png" alt="HeartSync" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h6>Computer Vision & Health</h6>
+                        <h4>HeartSync: Vision-Based Vital Signs</h4>
+                        <p>Real-time webcam estimation system capturing heart rate, respiratory patterns, and body temp
+                            via signal processing (FFT). Built as a fully modular GUI with Google Sheets cloud-logging
+                            integration, aimed at telehealth empowerment.</p>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card">
+                    <div class="project-img-wrapper">
+                        <img src="images/pic10.png" alt="BrainMap AI" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h6>Deep Learning & MRI</h6>
+                        <h4>BrainMap AI: Hybrid Tumour Detection</h4>
+                        <p>Using an innovative mix of supervised ResNet-18 classification and unsupervised clustering
+                            (K-means, FCM) algorithms, this application reliably detects and segments brain tumours.
+                            Coupled with an automated email-notification script for doctors.</p>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card">
+                    <div class="project-img-wrapper">
+                        <img src="images/pic07.png" alt="Heart Failure Prediction" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h6>Predictive Modeling</h6>
+                        <h4>Smarter Heart Failure Prediction</h4>
+                        <p>Trained and compared six different machine learning models against a robust cardiovascular
+                            dataset. Delivered a Python-backed clinical GUI allowing physicians to input patient metrics
+                            and instantly review predictive failure probabilities (~90% accuracy).</p>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card">
+                    <div class="project-img-wrapper">
+                        <img src="images/pic01.png" alt="Glucose Monitoring" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h6>IoT & Machine Learning</h6>
+                        <h4>Smart Non-Invasive Glucose Monitoring</h4>
+                        <p>Leveraged wearable IoT streams combined with a tailored predictive backend to assess and
+                            determine blood glucose levels via remote, non-invasive metrics. Transforming diabetic
+                            comfort without painful constant traditional readings.</p>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card">
+                    <div class="project-img-wrapper">
+                        <img src="images/pic02.png" alt="Tooth GenAI" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h6>Clinical AI Adoption</h6>
+                        <h4>Tooth GenAI</h4>
+                        <p>Partnering directly with the Faculty of Dental Sciences, crafted a periodontology assessment
+                            platform ensuring dynamic, data-driven treatment layouts. A paradigm shift in routine dental
+                            clinic imaging reviews.</p>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card">
+                    <div class="project-img-wrapper">
+                        <img src="images/pic05.jpg" alt="Predicting EBOM" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h6>Industrial Data Science</h6>
+                        <h4>Predicting Missing Parts in EBOM</h4>
+                        <p>During my tenure at L&T Technology Services, designed algorithms drastically increasing
+                            accuracy in high-stress assembly pipelines by filling missing EBOM configurations
+                            instantly—slashing operational blind spots.</p>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card">
+                    <div class="project-img-wrapper">
+                        <img src="images/pic06.png" alt="Bionic Hand" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h6>Biomechanics & Sensors</h6>
+                        <h4>AI-Based Bionic Hand</h4>
+                        <p>Meticulously aligned raw EMG signal reading algorithms for autonomous motorized prosthetic
+                            execution. Engineered within MS Ramaiah's labs to provide seamless kinetic reflex scaling
+                            for complex grasping functions.</p>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card">
+                    <div class="project-img-wrapper">
+                        <img src="images/pic03.jpg" alt="Crime Prevention" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h6>Security Vision</h6>
+                        <h4>Face and Action Detection Platform</h4>
+                        <p>Pioneering smart security protocols aimed at identifying distinct human aggression traces via
+                            real-time camera tracking. Analyzes spatial actions to alert operators instantly to imminent
+                            disruptions or behavioral anomalies.</p>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card">
+                    <div class="project-img-wrapper">
+                        <img src="images/pic04.jpg" alt="IoT Air Pollution" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h6>Environmental Analytics</h6>
+                        <h4>IoT Air Quality Insights System</h4>
+                        <p>Constructed a robust sensing loop pushing high-density geographic environment indices to a
+                            cloud network. Allows for instantaneous visualization of city pollution heatmaps
+                            facilitating rapid response advisories.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Publications Section -->
+        <section id="publications">
+            <h2 class="section-title">Publications</h2>
+            <p style="color: var(--text-secondary); margin-bottom: 2rem;">Select authored and co-authored pieces
+                focusing on intersections of healthcare, cybersecurity, and intelligent ecosystems in renowned scholarly
+                outlets.</p>
+
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>Title</th>
+                            <th>Publisher</th>
+                            <th>Category</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Enabling Autonomous and Intelligent Device Functionality Through IoT Integration</td>
+                            <td>IGI Global</td>
+                            <td>Journal Chapter</td>
+                            <td>May 2025</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Synergising 6G technologies, artificial intelligence, and green innovations: A path
+                                towards sustainable and intelligent connectivity</td>
+                            <td>Elsevier</td>
+                            <td>Journal Chapter</td>
+                            <td>Apr 2025</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Advancements in AI-Driven Dentistry - Tooth GenAI’s Impact on Dental Diagnosis and
+                                Treatment Planning</td>
+                            <td>IEEE Xplore</td>
+                            <td>Conference Paper</td>
+                            <td>Aug 2024</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Threat Hunting in System Using Log Analysis</td>
+                            <td>IEEE Xplore</td>
+                            <td>Conference Paper</td>
+                            <td>Apr 2024</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Exploring the Applications and Challenges of Digital Twins in Various Industries</td>
+                            <td>IEEE Xplore</td>
+                            <td>Conference Paper</td>
+                            <td>Apr 2024</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Computational Intelligence and Its Transformative Influence</td>
+                            <td>IEEE Xplore</td>
+                            <td>Conference Paper</td>
+                            <td>Apr 2024</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Robotic Process Automation - In-Depth Analysis of Advanced Automation Techniques and
+                                Technologies</td>
+                            <td>IGI Global</td>
+                            <td>Book Chapter</td>
+                            <td>Mar 2024</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>A Non-Invasive Approach Using Machine Learning and IoT for Health Monitoring</td>
+                            <td>IEEE Xplore</td>
+                            <td>Conference Paper</td>
+                            <td>Mar 2024</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>Gaze Corporate: A Corporate Profiling Website</td>
+                            <td>IEEE Xplore</td>
+                            <td>Conference Paper</td>
+                            <td>Mar 2024</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>Robotic and Cyber-Attack Classification Using AI and ML Techniques</td>
+                            <td>IEEE Xplore</td>
+                            <td>Conference Paper</td>
+                            <td>Jan 2024</td>
+                        </tr>
+                        <tr>
+                            <td>11</td>
+                            <td>Application of AI and Blockchain Technologies in the Medical Domain</td>
+                            <td>IGI Global</td>
+                            <td>Book Chapter</td>
+                            <td>Jan 2024</td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>Smart Non-Invasive Real-Time Health Monitoring using ML and IoT</td>
+                            <td>IEEE Xplore</td>
+                            <td>Conference Paper</td>
+                            <td>Dec 2023</td>
+                        </tr>
+                        <tr>
+                            <td>13</td>
+                            <td>Face and Action Detection for Crime Prevention - Balancing Promise and Ethical
+                                Considerations</td>
+                            <td>IEEE Xplore</td>
+                            <td>Conference Paper</td>
+                            <td>Nov 2023</td>
+                        </tr>
+                        <tr>
+                            <td>14</td>
+                            <td>AI & ML Methodologies in Navy & Their Systems</td>
+                            <td>IEEE Xplore</td>
+                            <td>Conference Paper</td>
+                            <td>Oct 2023</td>
+                        </tr>
+                        <tr>
+                            <td>15</td>
+                            <td>Intelligent Systems and Methods for Smart City in Multiple Domains</td>
+                            <td>IEEE Xplore</td>
+                            <td>Conference Paper</td>
+                            <td>Oct 2023</td>
+                        </tr>
+                        <tr>
+                            <td>16</td>
+                            <td>AI Methodologies in Modern Warfare Systems</td>
+                            <td>IEEE Xplore</td>
+                            <td>Conference Paper</td>
+                            <td>Dec 2022</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Details Section -->
+        <section id="details">
+            <h2 class="section-title">Education & Skills</h2>
+            <div class="details-grid">
+
+                <!-- Education -->
+                <div class="glass-card">
+                    <h3><i class="fas fa-university" style="color: var(--accent-purple); margin-right: 10px;"></i>
+                        Education</h3>
+                    <ul class="details-list" style="margin-top: 1.5rem;">
+                        <li>
+                            <b>Master of Science in Diagnostics, Data, and Digital Health</b>
+                            <span>University of Warwick (2024 - 2025, Pursuing)</span>
+                        </li>
+                        <li>
+                            <b>Bachelor of Technology in Artificial Intelligence and Machine Learning</b>
+                            <span>M S Ramaiah University of Applied Sciences (2020 - 2024)</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Specializations -->
+                <div class="glass-card">
+                    <h3><i class="fas fa-award" style="color: var(--accent-cyan); margin-right: 10px;"></i>
+                        Specializations</h3>
+                    <ul class="details-list" style="margin-top: 1.5rem;">
+                        <li><b>AI in Healthcare Specialization</b> <span>Stanford University</span></li>
+                        <li><b>Google IT Automation with Python Professional Certificate</b> <span>Google</span></li>
+                        <li><b>Blockchain Specialization</b> <span>University at Buffalo</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="glass-card" style="margin-top: 2rem;">
+                <h3><i class="fas fa-microchip" style="color: var(--accent-pink); margin-right: 10px;"></i> Technical
+                    Arsenal</h3>
+                <ul class="details-list" style="margin-top: 1.5rem;">
+                    <li><b>AI & Machine Learning:</b> Deep learning, NLP, computer vision, Scikit-learn, TensorFlow,
+                        Keras, PyTorch, Generative AI.</li>
+                    <li><b>Data Science & Analytics:</b> Pandas, NumPy, R, statistical workflows, Tableau, Power BI,
+                        high-volume data cleaning.</li>
+                    <li><b>Software & Cloud:</b> Python, SQL, Java, HTML/CSS, AWS, GCP, Flask, Docker, Git.</li>
+                    <li><b>Domain Expertise:</b> Medical Imaging, Healthcare AI compliance (HIPAA/GDPR), Digital Twins,
+                        IoT architectures.</li>
+                </ul>
+                <div class="tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">PyTorch</span>
+                    <span class="tag">TensorFlow</span>
+                    <span class="tag">Computer Vision</span>
+                    <span class="tag">Data Optimization</span>
+                    <span class="tag">Cloud Computing</span>
+                    <span class="tag">R</span>
+                    <span class="tag">SQL</span>
+                    <span class="tag">Flask</span>
+                    <span class="tag">Tableau</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- References Section -->
+        <section id="references">
+            <h2 class="section-title">References</h2>
+            <p style="color: var(--text-secondary); margin-bottom: 2rem;">Looking for distinct insights into my
+                capabilities? Reach out to my mentors:</p>
+
+            <div class="details-grid">
+                <div class="glass-card">
+                    <ul class="details-list">
+                        <li><b>Vijayalakshmi Ahanathapillai</b> <span>Assistant Professor & Course Leader, Univ of
+                                Warwick</span></li>
+                        <li><b>Yongmann Chung</b> <span>Assistant Professor & Project Supervisor, Univ of Warwick</span>
+                        </li>
+                        <li><b>Anthony Lyons</b> <span>Assistant Professor & Personal Tutor, Univ of Warwick</span></li>
+                    </ul>
+                </div>
+                <div class="glass-card">
+                    <ul class="details-list">
+                        <li><b>Asok Kumar Roy</b> <span>PLM Delivery Manager, L&T Technology and Services</span></li>
+                        <li><b>Dr. A. Prabhakar</b> <span>Professor, M S Ramaiah University of Applied Sciences</span>
+                        </li>
+                        <li><b>Dr. Jyothi AP</b> <span>Assistant Professor & Programme Head (M&C), MSRUAS</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer style="margin-top: 4rem; padding-top: 3rem; border-top: 1px solid var(--glass-border);">
+            <div style="display: flex; justify-content: center; max-width: 500px; margin: 0 auto; text-align: center;">
+                <div class="contact-item" style="width: 100%; padding: 3rem 2rem;">
+                    <i class="fas fa-envelope-open-text"
+                        style="font-size: 2.5rem; margin-bottom: 1.5rem; color: var(--accent-cyan);"></i>
+                    <h5 style="font-size: 1.5rem; margin-bottom: 1rem;">Let's Connect</h5>
+                    <a href="mailto:ashwathnarayan421@gmail.com"
+                        style="font-size: 1.15rem; letter-spacing: 0.5px;">ashwathnarayan421@gmail.com</a>
+                </div>
+            </div>
+
+            <div
+                style="text-align: center; margin-top: 3rem; margin-bottom: 2rem; color: var(--text-secondary); font-size: 0.9rem;">
+                <p>&copy; Ashwath Narayan JR. Architected with passion and AI.</p>
+            </div>
+        </footer>
+
+    </main>
+
+    <!-- Scripts -->
+    <script src="assets/js/animations.js"></script>
+
+</body>
+
+</html>
